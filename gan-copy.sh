@@ -12,4 +12,5 @@
 module load python3/3.9.3_anaconda2021.11_mamba
 
 cd /home/lermang/lee01273/research/GMEGAN/
-python gaussian-only-gmegan.py --sigma=0.162 --lr=1e-4 --modes=6
+# python gaussian-only-gmegan.py --sigma=0.162 --lr=1e-5 --modes=6
+python gaussian-comparison.py --sigma=0.162 --lr=1e-5 --modes=6

@@ -12,11 +12,4 @@
 module load python3/3.9.3_anaconda2021.11_mamba
 
 cd /home/lermang/lee01273/research/GMEGAN/
-python3 cifar-test.py --plot_every=200 --batch_size=64 --starting_epoch=0
-# python gaussian-comparison.py --modes=5 --num_iter=50000mkdir
-# python plot_epochs.py
-
-## OTM
-# cd /home/lermang/lee01273/research/OptimalTransportModeling/source
-# python3 otm_mnist_32x32.py --train 1 --total_epoch 50000 # --restore 1 --init_iter 15000
-# python3 otm_cifar_32x32.py #--train 1 --total_epoch 50000 # --restore 1 --init_iter 15000
+python3 cifar-test.py --plot_every=1 --batch_size=64 --starting_epoch=0 --saving=2
