@@ -5,3 +5,12 @@
     ```
     sbatch gan.sh
     ```
+- To see the current status of the job:
+    ```
+    squeue -u [username]
+    ```
+- To cancel the job:
+    ```
+    scancel [job id]
+    ```
+
